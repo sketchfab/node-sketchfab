@@ -9,12 +9,12 @@
   "author": "Maurice Svay <maurice@sketchfab.com>",
   "license": "MIT",
   "homepage": "https://github.com/sketchfab/node-sketchfab",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/sketchfab/node-sketchfab.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sketchfab/node-sketchfab.git"
   },
   "dependencies": {
     "lodash": "^2.4.1",
-    "superagent": "^0.21.0"
+    "request": "^2.51.0"
   }
 }
