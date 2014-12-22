@@ -1,6 +1,6 @@
 {
   "name": "node-sketchfab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sketchfab API client",
   "main": "lib/Sketchfab.js",
   "scripts": {
