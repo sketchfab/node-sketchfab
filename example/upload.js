@@ -5,7 +5,7 @@ var Sketchfab = require('../lib/Sketchfab');
 
 var client = new Sketchfab('YOUR_API_TOKEN');
 
-var task = client.upload({
+client.upload({
     'file': path.resolve(__dirname, './cube.obj'),
     'private': true
 }, function(err, task) {
