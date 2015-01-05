@@ -1,5 +1,11 @@
 # Sketchfab API Client
 
+## Installation
+
+```
+$ npm install node-sketchfab --save
+```
+
 ## API
 
 Run the example:
