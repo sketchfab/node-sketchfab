@@ -34,3 +34,8 @@ The result will be a `Task` object that emits events:
 * `progress`: will report the upload progress (from 0 to 100).
 * `success`: when the file is uploaded and processed. Event is passed the URL of the online model.
 * `error`: when there is an error. Event is passed an error message.
+
+### client.me(callback)
+
+Get profile information for current account.
+Callback will be invoked with profile data.
