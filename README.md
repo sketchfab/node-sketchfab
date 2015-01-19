@@ -12,9 +12,9 @@ Run the example:
 * Edit `example/upload.js` to add your API token.
 * Run: `node example/upload.js`
 
-### Sketchfab( api_token )
+### Sketchfab( auth )
 
-Returns a new client for the given API token.
+Returns a new client for the given authentication object.
 
 ### client.upload( params, callback )
 
