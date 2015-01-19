@@ -3,7 +3,10 @@
 var path = require('path');
 var Sketchfab = require('../lib/Sketchfab');
 
-var client = new Sketchfab('YOUR_API_TOKEN');
+var client = new Sketchfab({
+    type: 'token',
+    token: 'YOUR_API_TOKEN'
+});
 
 client.upload({
     'file': path.resolve(__dirname, './cube.obj'),
