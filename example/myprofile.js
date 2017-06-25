@@ -7,6 +7,10 @@ var client = new Sketchfab({
     token: 'YOUR_API_TOKEN'
 });
 
-client.me(function(err, data){
-    console.log(data);
+client.me(function(err, data) {
+    if (err) {
+        console.error(err);
+    } else {
+        console.log(data);
+    }
 });

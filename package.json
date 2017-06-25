@@ -1,6 +1,6 @@
 {
   "name": "sketchfab",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Sketchfab API client",
   "main": "lib/Sketchfab.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "url": "https://github.com/sketchfab/node-sketchfab.git"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
-    "request": "^2.51.0"
+    "lodash": "^4.15.0",
+    "request": "^2.81.0"
   }
 }
