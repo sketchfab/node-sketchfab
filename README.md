@@ -1,5 +1,7 @@
 # Sketchfab API Client
 
+Upload 3D models to [Sketchfab](https://sketchfab.com/), the place to publish, share and discover 3D content online, in VR and AR.
+
 ## Installation
 
 ```
