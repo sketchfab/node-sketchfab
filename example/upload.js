@@ -14,7 +14,7 @@ client.upload(
         private: true,
         isPublished: false,
         description: 'This is a cube',
-        tags: ['test', 'cube'],
+        tags: ['test', 'cube', 'nodejs'],
         categories: ['architecture', 'science-technology'],
         options: {
             shading: 'shadeless',
